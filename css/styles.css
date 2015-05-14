@@ -1,0 +1,33 @@
+.content-wrapper{
+	width: 100%;
+}
+.content-wrapper > *{
+	float: left;
+	height: 300px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+#bricks,
+#editor{
+	width: 20%;
+}
+#bricksZone{
+	width: 60%;
+}
+#bricks li{
+	padding: 0.2em 1em;
+}
+#bricks li.active{
+	background-color: rgba(223, 255, 23, 0.4);
+}
+.brick{
+	float: left;
+	border-style: solid;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	opacity: 0.5;
+}
+.brick.active{
+	opacity: 1;
+}
